@@ -1,5 +1,7 @@
 # 📊 Public Budget Execution Dashboard (Power BI)
 
+![Cover](images/Capa.png)
+
 A professional Power BI dashboard designed to analyze Brazilian public expenditure, focusing on budget execution, regional distribution, and performance monitoring.
 
 ---
@@ -14,9 +16,7 @@ The solution follows best practices in data modeling, DAX calculations, and UI/U
 
 ## 📊 Dashboard Preview
 
-> Replace the images below with your actual screenshots
-
-![Home](images/home.png)  
+![Home](images/Home.png)  
 ![Expense Control](images/expense.png)  
 ![Regional Control](images/regional.png)  
 ![Performance Control](images/performance.png)
@@ -54,7 +54,9 @@ Data was extracted from the official Brazilian Transparency Portal:
 🔗 https://portaldatransparencia.gov.br
 
 Dataset used:
-- Public expenditure execution data (Despesas Execução)
+- Public expenditure execution data (Despesas – Execução), monthly files from **01/2025 to 04/2026**
+
+To keep the repository lightweight, only a **sample** of the raw data is versioned (`DataSet/sample/`). The full monthly files can be downloaded from the portal (*Download de dados → Despesas → Execução*) and saved to `DataSet/Despesas20252026/` to refresh the report. The `.pbix` file already contains the imported data, so it can be explored without downloading anything.
 
 ---
 
@@ -139,7 +141,8 @@ The main goal of this project is to:
 
 ## 👤 Author
 
-**Vitor Chavernue**
+**Vitor Chavernue** — Senior Data Engineer & Data Analyst
+[LinkedIn](https://www.linkedin.com/in/vitorchavernue/) · [GitHub](https://github.com/vitorchavernue)
 
 ---
 
