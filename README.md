@@ -14,6 +14,35 @@ The solution follows best practices in data modeling, DAX calculations, and UI/U
 
 ---
 
+## 🎯 Business problem
+
+Brazilian federal spending is public, but it is published as **large monthly CSV files** (about 55,000–62,000 lines and 47 columns per month, latin-1 encoding, decimal commas). In this format:
+
+- managers, journalists and citizens **cannot easily answer** how much was committed vs. actually paid, by which agency, in which state;
+- comparing months, regions or agencies requires heavy manual work in spreadsheets;
+- there is no clear view of **budget execution performance** (how much of what was committed has been paid).
+
+## 💡 Solution
+
+| Component | What it does |
+|---|---|
+| **Power Query (M)** | Reads and standardizes the raw monthly files: encoding, decimal separators, text and date normalization, null handling |
+| **Star schema** | `Fato_Despesas` linked to calendar, agency, geography and expense group dimensions |
+| **DAX measures** | Committed, settled and paid amounts, YTD, YoY %, execution rate and target achievement |
+| **Report design** | Home navigation and three focused pages: expense control, regional control and performance control |
+
+## 📈 Results
+
+- **Self-service analysis** of 16 months of public spending (01/2025–04/2026) in a few clicks
+- **Execution monitoring**: committed vs. paid gap and target achievement by agency and period
+- **Regional view** of where the budget is spent, by region and state
+- A model that can be refreshed every month by just adding the new official file
+
+> The data engineering version of this dataset — S3, Glue, Athena, Snowflake and dbt — is in
+> [**public-spending-data-platform**](https://github.com/vitorchavernue/public-spending-data-platform).
+
+---
+
 ## 📊 Dashboard Preview
 
 ![Home](images/Home.png)  
