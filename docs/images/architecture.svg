@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1181" viewBox="0 0 1920 1181">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D0C0E"/><stop offset="1" stop-color="#17151A"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#BEF264"/><stop offset="1" stop-color="#4D7C0F"/></linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1800 0) scale(900)">
+    <stop stop-color="#84CC16" stop-opacity="0.16"/><stop offset="1" stop-color="#84CC16" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#fff" fill-opacity="0.04"/></pattern>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#BEF264"/></marker>
+</defs>
+<rect width="1920" height="1181" rx="28" fill="url(#bg)"/>
+<rect width="1920" height="1181" rx="28" fill="url(#glow)"/>
+<rect width="1920" height="1181" rx="28" fill="url(#dots)"/>
+<g id="Header">
+<circle cx="88" cy="78" r="30" fill="none" stroke="url(#accent)" stroke-width="2.5"/><g transform="translate(70.0 60.0) scale(1.5000)" fill="none" stroke="#BEF264" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 4 8h16z"/><path d="M6 10v7M10 10v7M14 10v7M18 10v7M3.5 20h17"/></g>
+<text x="136.0" y="70.0" font-family="Inter, Segoe UI, sans-serif" font-size="17" font-weight="600" fill="#BEF264" text-anchor="start" letter-spacing="4">ARCHITECTURE</text>
+<text x="136.0" y="108.0" font-family="Inter, Segoe UI, sans-serif" font-size="38" font-weight="800" fill="#F4F1F5" text-anchor="start">Public Budget Execution Dashboard</text>
+<text x="1860.0" y="70.0" font-family="Inter, Segoe UI, sans-serif" font-size="17" font-weight="500" fill="#B0A9B5" text-anchor="end">Power BI · Power Query (M) · DAX</text>
+<text x="1860.0" y="100.0" font-family="Inter, Segoe UI, sans-serif" font-size="17" font-weight="400" fill="#7E7684" text-anchor="end">official monthly files → Power Query → star schema → DAX measures → report</text>
+<rect x="60" y="138" width="1800" height="1.5" fill="#37333C"/><rect x="60" y="137.5" width="120" height="2.5" fill="url(#accent)"/>
+</g>
+<rect x="60" y="172" width="1800" height="92" rx="20" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<circle cx="112" cy="218" r="26" fill="#232027" stroke="#4D7C0F" stroke-width="1.5"/>
+<g transform="translate(96.0 202.0) scale(1.3333)" fill="none" stroke="#BEF264" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12.5" r="8"/><path d="M12 8v4.5l3 2"/></g>
+<text x="154.0" y="212.0" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#BEF264" text-anchor="start" letter-spacing="3">REFRESH</text>
+<text x="154.0" y="238.0" font-family="Inter, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#F4F1F5" text-anchor="start">Monthly: add the new official file and refresh</text>
+<rect x="700.0" y="202.0" width="141.6" height="29" rx="14.5" fill="#232027" stroke="#BEF264" stroke-opacity="0.6" stroke-width="1.2"/><text x="712.0" y="220.5" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#BEF264" text-anchor="start">1  Monthly CSV</text>
+<path d="M847.6 216.5 h14" stroke="#BEF264" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="869.6" y="202.0" width="141.6" height="29" rx="14.5" fill="#232027" stroke="#BEF264" stroke-opacity="0.6" stroke-width="1.2"/><text x="881.6" y="220.5" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#BEF264" text-anchor="start">2  Power Query</text>
+<path d="M1017.2 216.5 h14" stroke="#BEF264" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1039.2" y="202.0" width="141.6" height="29" rx="14.5" fill="#232027" stroke="#BEF264" stroke-opacity="0.6" stroke-width="1.2"/><text x="1051.2" y="220.5" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#BEF264" text-anchor="start">3  Star schema</text>
+<path d="M1186.8 216.5 h14" stroke="#BEF264" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1208.8" y="202.0" width="116.4" height="29" rx="14.5" fill="#232027" stroke="#BEF264" stroke-opacity="0.6" stroke-width="1.2"/><text x="1220.8" y="220.5" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#BEF264" text-anchor="start">4  Measures</text>
+<path d="M1331.2 216.5 h14" stroke="#BEF264" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1353.2" y="202.0" width="91.2" height="29" rx="14.5" fill="#232027" stroke="#BEF264" stroke-opacity="0.6" stroke-width="1.2"/><text x="1365.2" y="220.5" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#BEF264" text-anchor="start">5  Pages</text>
+<g id="Layer 1 Official data">
+<rect x="60.0" y="300" width="318.4" height="491.9" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="86.0" y="300" width="70" height="3.5" rx="1.75" fill="url(#accent)"/>
+<circle cx="112.0" cy="356" r="28" fill="#232027" stroke="#4D7C0F" stroke-width="1.5"/>
+<g transform="translate(95.0 339.0) scale(1.4167)" fill="none" stroke="#BEF264" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 4 8h16z"/><path d="M6 10v7M10 10v7M14 10v7M18 10v7M3.5 20h17"/></g>
+<text x="352.4" y="348.0" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#37333C" text-anchor="end">01</text>
+<text x="86.0" y="418.0" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="800" fill="#F4F1F5" text-anchor="start">Official data</text>
+<text x="86.0" y="449.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#BEF264" text-anchor="start">DataSet/ · Despesas – Execução</text>
+<text x="86.0" y="470.5" font-family="Inter, Segoe UI, sans-serif" font-size="14.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Portal da Transparência</text>
+<rect x="86.0" y="486.1" width="266.4" height="1" fill="#37333C"/>
+<circle cx="91.0" cy="515.1" r="3.5" fill="#84CC16"/>
+<text x="104.0" y="520.1" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">16 monthly files (01/2025 –</text><text x="104.0" y="541.4" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">04/2026)</text>
+<circle cx="91.0" cy="569.7" r="3.5" fill="#84CC16"/>
+<text x="104.0" y="574.7" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">55,000–62,000 lines and 47</text><text x="104.0" y="596.0" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">columns per month</text>
+<circle cx="91.0" cy="624.3" r="3.5" fill="#84CC16"/>
+<text x="104.0" y="629.3" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">latin-1 encoding and decimal</text><text x="104.0" y="650.6" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">commas</text>
+<rect x="78.0" y="713.9" width="282.4" height="60" rx="12" fill="#232027"/>
+<text x="92.0" y="740.9" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">Public, but hard to read in this</text><text x="92.0" y="758.8" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">format</text>
+</g>
+<path d="M384.4 545.9 h38" stroke="#BEF264" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g id="Layer 2 Power Query">
+<rect x="430.4" y="300" width="318.4" height="491.9" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="456.4" y="300" width="70" height="3.5" rx="1.75" fill="url(#accent)"/>
+<circle cx="482.4" cy="356" r="28" fill="#232027" stroke="#4D7C0F" stroke-width="1.5"/>
+<g transform="translate(465.4 339.0) scale(1.4167)" fill="none" stroke="#BEF264" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16l-6 7.5V19l-4 1.5v-8z"/></g>
+<text x="722.8" y="348.0" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#37333C" text-anchor="end">02</text>
+<text x="456.4" y="418.0" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="800" fill="#F4F1F5" text-anchor="start">Power Query</text>
+<text x="456.4" y="449.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#BEF264" text-anchor="start">M</text>
+<text x="456.4" y="470.5" font-family="Inter, Segoe UI, sans-serif" font-size="14.5" font-weight="400" fill="#B0A9B5" text-anchor="start">standardisation</text>
+<rect x="456.4" y="486.1" width="266.4" height="1" fill="#37333C"/>
+<circle cx="461.4" cy="515.1" r="3.5" fill="#84CC16"/>
+<text x="474.4" y="520.1" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Encoding and decimal</text><text x="474.4" y="541.4" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">separators</text>
+<circle cx="461.4" cy="569.7" r="3.5" fill="#84CC16"/>
+<text x="474.4" y="574.7" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Text and date normalisation</text>
+<circle cx="461.4" cy="603.0" r="3.5" fill="#84CC16"/>
+<text x="474.4" y="608.0" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Null handling</text>
+<circle cx="461.4" cy="636.3" r="3.5" fill="#84CC16"/>
+<text x="474.4" y="641.3" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">New month = new file in the</text><text x="474.4" y="662.6" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">folder</text>
+<rect x="448.4" y="713.9" width="282.4" height="60" rx="12" fill="#232027"/>
+<text x="462.4" y="740.9" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">Repeatable preparation, no manual</text><text x="462.4" y="758.8" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">steps</text>
+</g>
+<path d="M754.8 545.9 h38" stroke="#BEF264" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g id="Layer 3 Star schema">
+<rect x="800.8" y="300" width="318.4" height="491.9" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="826.8" y="300" width="70" height="3.5" rx="1.75" fill="url(#accent)"/>
+<circle cx="852.8" cy="356" r="28" fill="#232027" stroke="#4D7C0F" stroke-width="1.5"/>
+<g transform="translate(835.8 339.0) scale(1.4167)" fill="none" stroke="#BEF264" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></g>
+<text x="1093.2" y="348.0" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#37333C" text-anchor="end">03</text>
+<text x="826.8" y="418.0" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="800" fill="#F4F1F5" text-anchor="start">Star schema</text>
+<text x="826.8" y="449.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#BEF264" text-anchor="start">Fato_Despesas</text>
+<text x="826.8" y="470.5" font-family="Inter, Segoe UI, sans-serif" font-size="14.5" font-weight="400" fill="#B0A9B5" text-anchor="start">1:N relationships</text>
+<rect x="826.8" y="486.1" width="266.4" height="1" fill="#37333C"/>
+<text x="826.8" y="520.1" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#7E7684" text-anchor="start" letter-spacing="2">DIMENSIONS</text>
+<rect x="826.8" y="534.1" width="129.2" height="28" rx="14" fill="#232027" stroke="#7DD3FC" stroke-opacity="0.55"/>
+<text x="836.8" y="553.1" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#7DD3FC" text-anchor="start">Dim_Calendario</text>
+<rect x="964.0" y="534.1" width="90.2" height="28" rx="14" fill="#232027" stroke="#7DD3FC" stroke-opacity="0.55"/>
+<text x="974.0" y="553.1" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#7DD3FC" text-anchor="start">Dim_Orgao</text>
+<rect x="826.8" y="570.1" width="121.4" height="28" rx="14" fill="#232027" stroke="#7DD3FC" stroke-opacity="0.55"/>
+<text x="836.8" y="589.1" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#7DD3FC" text-anchor="start">Dim_Geografia</text>
+<rect x="826.8" y="606.1" width="152.6" height="28" rx="14" fill="#232027" stroke="#7DD3FC" stroke-opacity="0.55"/>
+<text x="836.8" y="625.1" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#7DD3FC" text-anchor="start">Dim_Grupo_Despesa</text>
+<rect x="818.8" y="713.9" width="282.4" height="60" rx="12" fill="#232027"/>
+<text x="832.8" y="740.9" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">Performance and clear filters</text>
+</g>
+<path d="M1125.2 545.9 h38" stroke="#BEF264" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g id="Layer 4 DAX measures">
+<rect x="1171.2" y="300" width="318.4" height="491.9" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="1197.2" y="300" width="70" height="3.5" rx="1.75" fill="url(#accent)"/>
+<circle cx="1223.2" cy="356" r="28" fill="#232027" stroke="#4D7C0F" stroke-width="1.5"/>
+<g transform="translate(1206.2 339.0) scale(1.4167)" fill="none" stroke="#BEF264" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16a8 8 0 1 1 16 0"/><path d="M12 16l4.5-5"/><circle cx="12" cy="16" r="1.5"/></g>
+<text x="1463.6" y="348.0" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#37333C" text-anchor="end">04</text>
+<text x="1197.2" y="418.0" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="800" fill="#F4F1F5" text-anchor="start">DAX measures</text>
+<text x="1197.2" y="449.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#BEF264" text-anchor="start">committed · settled · paid</text>
+<text x="1197.2" y="470.5" font-family="Inter, Segoe UI, sans-serif" font-size="14.5" font-weight="400" fill="#B0A9B5" text-anchor="start">time intelligence and targets</text>
+<rect x="1197.2" y="486.1" width="266.4" height="1" fill="#37333C"/>
+<circle cx="1202.2" cy="515.1" r="3.5" fill="#84CC16"/>
+<text x="1215.2" y="520.1" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Committed, settled and paid</text><text x="1215.2" y="541.4" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">amounts</text>
+<circle cx="1202.2" cy="569.7" r="3.5" fill="#84CC16"/>
+<text x="1215.2" y="574.7" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">YTD and YoY %</text>
+<circle cx="1202.2" cy="603.0" r="3.5" fill="#84CC16"/>
+<text x="1215.2" y="608.0" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Execution rate and target</text><text x="1215.2" y="629.3" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">achievement</text>
+<rect x="1189.2" y="713.9" width="282.4" height="60" rx="12" fill="#232027"/>
+<text x="1203.2" y="740.9" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">One definition per indicator</text>
+</g>
+<path d="M1495.6 545.9 h38" stroke="#BEF264" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g id="Layer 5 Report">
+<rect x="1541.6" y="300" width="318.4" height="491.9" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="1567.6" y="300" width="70" height="3.5" rx="1.75" fill="url(#accent)"/>
+<circle cx="1593.6" cy="356" r="28" fill="#232027" stroke="#4D7C0F" stroke-width="1.5"/>
+<g transform="translate(1576.6 339.0) scale(1.4167)" fill="none" stroke="#BEF264" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></g>
+<text x="1834.0" y="348.0" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#37333C" text-anchor="end">05</text>
+<text x="1567.6" y="418.0" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="800" fill="#F4F1F5" text-anchor="start">Report</text>
+<text x="1567.6" y="449.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#BEF264" text-anchor="start">ExecOrcamentaria.pbix</text>
+<text x="1567.6" y="470.5" font-family="Inter, Segoe UI, sans-serif" font-size="14.5" font-weight="400" fill="#B0A9B5" text-anchor="start">home + 3 pages</text>
+<rect x="1567.6" y="486.1" width="266.4" height="1" fill="#37333C"/>
+<circle cx="1572.6" cy="515.1" r="3.5" fill="#84CC16"/>
+<text x="1585.6" y="520.1" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Expense control</text>
+<circle cx="1572.6" cy="548.4" r="3.5" fill="#84CC16"/>
+<text x="1585.6" y="553.4" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Regional control with map</text>
+<circle cx="1572.6" cy="581.7" r="3.5" fill="#84CC16"/>
+<text x="1585.6" y="586.7" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Performance control</text>
+<circle cx="1572.6" cy="615.0" r="3.5" fill="#84CC16"/>
+<text x="1585.6" y="620.0" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Navigation buttons and</text><text x="1585.6" y="641.3" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">bookmarks</text>
+<rect x="1559.6" y="713.9" width="282.4" height="60" rx="12" fill="#232027"/>
+<text x="1573.6" y="740.9" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">Answers in a few clicks</text>
+</g>
+<rect x="60" y="831.9" width="888.0" height="310" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<g transform="translate(88.0 857.9) scale(1.2500)" fill="none" stroke="#BEF264" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M13.5 4l-3 16"/></g>
+<text x="130.0" y="881.9" font-family="Inter, Segoe UI, sans-serif" font-size="22" font-weight="800" fill="#F4F1F5" text-anchor="start">Where the code is</text>
+<rect x="88" y="911.9" width="832.0" height="62" rx="10" fill="#232027"/>
+<rect x="88" y="911.9" width="5" height="62" rx="2.5" fill="#BEF264"/>
+<text x="108.0" y="937.9" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#F4F1F5" text-anchor="start">ExecOrcamentaria.pbix</text>
+<text x="908.0" y="937.9" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#BEF264" text-anchor="end">Power BI</text>
+<text x="108.0" y="960.9" font-family="Inter, Segoe UI, sans-serif" font-size="13.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Power Query, model, DAX measures and report pages</text>
+<rect x="88" y="981.9" width="832.0" height="62" rx="10" fill="#232027"/>
+<rect x="88" y="981.9" width="5" height="62" rx="2.5" fill="#FBBF24"/>
+<text x="108.0" y="1007.9" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#F4F1F5" text-anchor="start">DataSet/sample</text>
+<text x="908.0" y="1007.9" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#FBBF24" text-anchor="end">CSV</text>
+<text x="108.0" y="1030.9" font-family="Inter, Segoe UI, sans-serif" font-size="13.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Sample of the official monthly files (full files on the portal)</text>
+<rect x="88" y="1051.9" width="832.0" height="62" rx="10" fill="#232027"/>
+<rect x="88" y="1051.9" width="5" height="62" rx="2.5" fill="#7DD3FC"/>
+<text x="108.0" y="1077.9" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#F4F1F5" text-anchor="start">images</text>
+<text x="908.0" y="1077.9" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#7DD3FC" text-anchor="end">PNG</text>
+<text x="108.0" y="1100.9" font-family="Inter, Segoe UI, sans-serif" font-size="13.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Report pages shown in the README</text>
+<rect x="972.0" y="831.9" width="888.0" height="310" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<g transform="translate(1000.0 857.9) scale(1.2500)" fill="none" stroke="#FBBF24" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16a8 8 0 1 1 16 0"/><path d="M12 16l4.5-5"/><circle cx="12" cy="16" r="1.5"/></g>
+<text x="1042.0" y="881.9" font-family="Inter, Segoe UI, sans-serif" font-size="22" font-weight="800" fill="#F4F1F5" text-anchor="start">What the dashboard delivers</text>
+<rect x="1000.0" y="913.9" width="199.0" height="202" rx="14" fill="#232027"/>
+<rect x="1018.0" y="913.9" width="44" height="3" rx="1.5" fill="#FBBF24"/>
+<text x="1018.0" y="977.9" font-family="Inter, Segoe UI, sans-serif" font-size="40" font-weight="800" fill="#FBBF24" text-anchor="start">16</text>
+<text x="1018.0" y="1015.9" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">months of federal</text><text x="1018.0" y="1035.8" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">spending in one model</text>
+<rect x="1211.0" y="913.9" width="199.0" height="202" rx="14" fill="#232027"/>
+<rect x="1229.0" y="913.9" width="44" height="3" rx="1.5" fill="#FBBF24"/>
+<text x="1229.0" y="977.9" font-family="Inter, Segoe UI, sans-serif" font-size="40" font-weight="800" fill="#FBBF24" text-anchor="start">~60k</text>
+<text x="1229.0" y="1015.9" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">official lines per</text><text x="1229.0" y="1035.8" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">month prepared</text><text x="1229.0" y="1055.6" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">automatically</text>
+<rect x="1422.0" y="913.9" width="199.0" height="202" rx="14" fill="#232027"/>
+<rect x="1440.0" y="913.9" width="44" height="3" rx="1.5" fill="#FBBF24"/>
+<text x="1440.0" y="977.9" font-family="Inter, Segoe UI, sans-serif" font-size="40" font-weight="800" fill="#FBBF24" text-anchor="start">4</text>
+<text x="1440.0" y="1015.9" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">dimensions: date,</text><text x="1440.0" y="1035.8" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">agency, geography,</text><text x="1440.0" y="1055.6" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">expense group</text>
+<rect x="1633.0" y="913.9" width="199.0" height="202" rx="14" fill="#232027"/>
+<rect x="1651.0" y="913.9" width="44" height="3" rx="1.5" fill="#FBBF24"/>
+<text x="1651.0" y="977.9" font-family="Inter, Segoe UI, sans-serif" font-size="40" font-weight="800" fill="#FBBF24" text-anchor="start">3</text>
+<text x="1651.0" y="1015.9" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">analysis pages:</text><text x="1651.0" y="1035.8" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">expense, regional,</text><text x="1651.0" y="1055.6" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">performance</text>
+</svg>
